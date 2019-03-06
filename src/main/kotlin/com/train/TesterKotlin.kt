@@ -3,8 +3,8 @@ package com.train
 import java.util.*
 
 fun main(args: Array<String>) {
+    val scanner =Scanner(System.`in`)
     do {
-        val scanner =Scanner(System.`in`)
         println("Please enter number of tickets: ")
         val tickets = scanner.nextInt()
         if (tickets != -1) {
